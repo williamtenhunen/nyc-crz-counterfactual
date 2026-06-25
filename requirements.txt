@@ -1,0 +1,17 @@
+# Core
+numpy
+pandas
+pyarrow
+requests
+matplotlib
+# Modelling
+lightgbm
+torch
+statsmodels
+# Geospatial (buffer-ring derivation)
+geopandas
+shapely
+# Notes:
+# - Runs on Google Colab (free tier). pyarrow/pandas/numpy/matplotlib/requests ship preinstalled;
+#   the notebooks pip-install lightgbm, geopandas, and torch on first use as needed.
+# - All data sources are keyless (no API keys / registration).
