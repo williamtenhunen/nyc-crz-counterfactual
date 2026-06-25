@@ -24,7 +24,7 @@ groups and estimate what the zone *would* have done absent the policy:
 The CRZ zone set is the **official MTA list**; the buffer ring is derived **geometrically** (zones within 100 ft of
 the cordon, from the TLC zone GeoParquet), so neither relies on hand-picking.
 
-## Key results (`results_summary.csv`)
+## Key results
 
 | Question | Result | Verdict |
 |---|---|---|
