@@ -35,12 +35,20 @@ the cordon, from the TLC zone GeoParquet), so neither relies on hand-picking.
 
 ### The falsification suite (the centrepiece)
 
+![In-time permutation test vs the no-policy null](fig_placebo_null.png)
+
 An in-time permutation test (fake interventions across the pre-period) gives a no-policy **null** that is itself
 *positive and trending* (mean ≈ +0.60 mph). The real treated−control effect (+1.09) exceeds that null at p ≈ 0.000
 — but this is **confounded**: the real window is the latest point on an *accelerating* differential trend, so it is
 the expected extremum under the null even with no policy (permutation exchangeability fails). The decisive check is
 that the cleaner **treated−buffer** estimate (+0.38) is *smaller* than the **buffer−control** placebo (+0.70)
 between two untreated groups.
+
+![Absolute vs differenced: real gap ≈ placebo gap](fig_effect_contrast.png)
+
+![Yearly speed by group — only treated reverses](fig_speed_reversal.png)
+
+![Forecasting skill by horizon](fig_forecast_horizon.png)
 
 ## Data (all keyless, no API keys, no registration)
 
